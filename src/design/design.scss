@@ -1,15 +1,34 @@
+@import "lib/variables";
 html {
-  height: 100%;
   width: 100%;
+  height: 100%;
+}
+body {
+  background-color: $bleed;
 }
 
 header {
-  height: 60px;
-  background-color: yellow;
+  height: 90px;
   padding-top: 1px;
+  background-color: $space;
+  opacity: 0.93;
+  color: $rootColor;
+  -webkit-border-top-right-radius: 1000px;
+  -webkit-border-bottom-left-radius: 100px;
+  -moz-border-radius-topright: 1000px;
+  -moz-border-radius-bottomleft: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  text-align: center;
+}
+
+p {
+  width: 100%;
+  background-color: $rootColor;
+  opacity: 0.5;
 }
 
 footer {
   height: 40px;
-  background-color: yellow;
+  background-color: $bleed;
 }
