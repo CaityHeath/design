@@ -4,6 +4,9 @@ import Footer from "./components/footer/footer.js";
 import Content from "./components/content/content.js";
 import Reset from "./design/reset.scss";
 import Design from "./design/design.scss";
+import Mixins from "./design/_mixins.scss";
+import "./design/reset.scss";
+import "./design/design.scss";
 
 const App = () => {
   return (
