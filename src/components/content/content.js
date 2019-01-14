@@ -1,8 +1,8 @@
-import React from 'react';
+import React from "react";
 
-import content from './content.json';
+import content from "./content.json";
 
-import Deck from '../deck/deck.js';
+import Deck from "../deck/deck.js";
 
 const Content = props => {
   return (
@@ -105,6 +105,17 @@ const Content = props => {
         volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis
         luctus, metus
       </p>
+
+      <form>
+        <fieldset>
+          <legend> </legend>
+          Name: <input type="text" />
+          Email: <input type="text" />
+          Recieve Emails?
+          <input type="radio" name="email" value="Yes" id="yes" checked /> Yes
+          <input type="radio" name="email" value="No" id="no" /> No
+        </fieldset>
+      </form>
     </main>
   );
   // return content.map((section, i) => <Deck content={section} />);
