@@ -1,0 +1,35 @@
+form {
+  font-size: 14px;
+  margin-bottom: 5px;
+  width: 50%;
+}
+
+fieldset {
+  background-color: $bleed;
+  opacity: 0.7;
+  display: flex;
+  justify-content: space-between;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+input {
+  width: 75%;
+  margin: 3px;
+  background-color: $bleed;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid $accentColor;
+}
+
+#check {
+  margin-top: 10px;
+}
+
+button {
+  width: 75px;
+  margin: 15px 0px 5px 5px;
+}
