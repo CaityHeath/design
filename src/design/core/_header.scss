@@ -3,11 +3,33 @@ header {
   height: 90px;
   margin-left: 2.5%;
   width: 95%;
-
   background-color: #ddefe3;
-  opacity: 0.93;
   color: #2a4843;
   text-align: center;
+  z-index: 1;
+}
+
+nav {
+  position: relative;
+  top: 18px;
+  width: 100px;
+  cursor: pointer;
+  align-content: center;
+  font-family: "Work Sans", sans-serif;
+
+  &:hover > ul li {
+    display: block;
+    background-color: $bleed;
+    opacity: 0.9;
+  }
+}
+
+li {
+  display: none;
+  float: left;
+  margin-left: 10px;
+  width: 100px;
+  height: 25px;
 }
 
 h1 {

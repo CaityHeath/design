@@ -1,6 +1,14 @@
 footer {
   height: 40px;
   background-color: #2a484e;
+  color: $space;
 
   text-align: center;
+}
+
+footer div {
+  position: relative;
+  top: 10px;
+  font-family: "Work Sans", sans-serif;
+  font-size: 14px;
 }

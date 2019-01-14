@@ -5,9 +5,14 @@ const Header = props => {
     <header>
       <h1>{props.title}</h1>
       {props.children}
-      <div class="arrow-down" />
-      <div class="arrow-left" />
-      <div class="arrow-right" />
+      <nav>
+        Navigation
+        <ul>
+          <li> one </li>
+          <li> two </li>
+          <li> three </li>
+        </ul>
+      </nav>
     </header>
   );
 };
