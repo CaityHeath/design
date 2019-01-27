@@ -111,9 +111,8 @@ const Content = props => {
           <legend> </legend>
           Name: <input type="text" />
           Email: <input type="text" />
-          Recieve Emails?
-          <input type="radio" name="email" value="Yes" id="yes" checked /> Yes
-          <input type="radio" name="email" value="No" id="no" /> No
+          <input id="check" type="checkbox" /> Receive Updates
+          <button type="button">Submit!</button>
         </fieldset>
       </form>
     </main>
